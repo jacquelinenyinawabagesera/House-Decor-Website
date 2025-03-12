@@ -1,0 +1,244 @@
+body{
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+}
+.shape{
+    position: relative;
+    width: 674.49px;
+    height: 668.42px;
+    }
+    .shape1{
+    box-sizing: border-box;
+    position: absolute;
+    left: 46.11%;
+    right: -21.05%;
+    top: 4.88%;
+    bottom: 38.85%;
+    background: #474747;
+    border: 1px solid #5E5858;
+    border-radius: 53px;
+    transform: rotate(43.29deg);
+    }
+    .shape2{
+    position: absolute;
+    left: 1.04%;
+    right: -10.08%;
+    top: -28.32%;
+    bottom: 87.22%;
+    background:white;
+    }
+    .shape4{
+    position: absolute;
+    width: 462px;
+    height: 353px;
+    top: 42%;
+    left: 20%;
+    background: white;
+    border-radius: 53px;
+    }
+    .shape3{
+    position: absolute;
+    left: 102.68%;
+    right: -60.07%;
+    top: 7.53%;
+    bottom: 25.35%;
+    background: #FFFCFC;
+    }
+    .last-shape{
+    position: absolute;
+    left: 60.26%;
+    right: -7.7%;
+    top: 65.51%;
+    bottom: 15.57%;
+    margin-left: 210px;
+    background: #FFFCFC;
+    transform: rotate(55.06deg);
+    }
+    .feature{
+        float: right;
+        margin-top: -5%;
+        overflow: hidden;
+        position: relative;
+        z-index: -1;
+    }
+    .icons{
+        display: flex;
+        gap: 15%;
+        top: 13.5%;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        margin-left: 90%;
+        cursor: pointer;
+        overflow: visible;
+        right:19.8%;
+    }
+    .search{
+       margin-top: 10%;
+    }
+    .human{
+        margin-top: 10%;
+    }
+    .bag{
+        margin-top: 10%;
+    }
+    #carra{
+        font-family: carra;
+        font-size: 190%;
+
+    }
+    .nav{
+        display: flex;
+        gap: 40%; 
+        padding-top: 4%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .links{
+        display: flex;
+        gap: 17%;
+    }
+    .image-container img{
+        width: 30%;
+        border-radius: 5%;
+        margin-left: 66%;
+        margin-top: -33%;
+        overflow: hidden;
+        position: relative;
+
+    }
+    .heading{
+        font-family: CormonatGaramond;
+        font-size: 190%;
+        margin-top: -35%;
+     }
+     .heading p{
+        font-size: 50%;
+        margin-bottom: -2%;
+     }
+     .home{
+        border: dashed 2px gray;
+     }
+
+     .start-now {
+        display: flex;
+        gap: 24px;
+    }
+    .start-now p {
+        padding: 7px;
+        margin-bottom: 0px;
+        font-family: poppins;
+    }
+    .start-now button {
+        background-color: #474747;
+        padding: 20px;
+         border: none;
+         border-radius: 37px;
+          width: 25%; 
+          color: white;
+    }
+    .youtube{
+        margin-top: 2.5%;
+        width: 29px;
+        height: 35px;
+        margin-left: -0.5%;
+    }
+    .start-now p{
+        margin-top: 3%;
+
+    }
+    .figure-container{
+        display: flex; gap: 5vh;
+    }
+    .figure-container .figure{
+    font-size: 3vh;
+    }
+    .logo-container{
+        display: flex;
+       justify-content: space-between;
+        margin-top: 100px;
+        font-size: 18px;
+    }
+    .seller{
+        display: flex;
+        justify-content: space-between;
+         margin-top: 10%;
+    }
+.fa-flip-horizontal{
+    color: #8a8e93;
+}
+.vase-container{
+    width: 60%;
+    display: flex;
+}
+.vase-image{
+    position: relative;
+}
+.vase-figure{
+    margin-left: 3px;
+}
+.vase-figure img{
+   width: 25.5vh;
+   height: 27vh;
+   border-radius: 1vh;
+   border-top: 50px solid rgba(247, 245, 241, 0.801);
+}
+.new{
+    position: absolute;top: 0px;left: 10px;color: rgb(248, 68, 68);
+}
+.percentage{
+    position: absolute;top: 0px; right: 10px;
+}
+.test{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.test p{
+    font-weight: normal;
+}
+.test h1{
+    font-size: 30px;
+    word-spacing: 5px;
+}
+.trend-home-container{
+    display: flex;
+    gap: 60px;
+    /* width:80vh; height: 60vh; */
+
+}
+.shop-now{
+    padding: 20px;
+     border: 1px solid black;
+     border-radius: 30px;
+      width: 50%; 
+      color: black;
+      background-color: white;
+      margin-top: 40px;
+}
+.offer{
+/* margin-bottom: 600px; */
+}
+ .offer h6{
+  font-weight: normal;
+  margin-top: 50px;
+} 
+.offer h1{
+    font-weight: bold;
+}
+.stylish-decor{
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.style h6{
+    font-weight: normal;
+    margin-top: 50px;
+}
+.style h1{
+    font-weight: bold;
+}
