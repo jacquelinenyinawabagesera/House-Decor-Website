@@ -1,6 +1,5 @@
 body{
     width: 60%;
-    padding: 5%;
     margin: auto;
 }
 .shape{
@@ -241,4 +240,68 @@ margin-bottom: 100px;
 }
 .style h1{
     font-weight: bold;
+}
+footer{
+    bottom: 0;
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    }
+.bottom-footer{
+    display: flex;justify-content: space-between;
+}
+.top-footer{
+    display: flex;justify-content: space-between;
+}
+.last-vase-container{
+    display: flex;
+    justify-content: space-between;
+}
+.last-vase-container .image img{
+    object-fit: cover;
+    border-radius: 15px;
+    width: 40vh;
+    height: 37vh;
+}
+.last-vase-container .image{
+    /* width: 600px;
+    height: 500px; */
+   
+}
+.image-right{
+    width: 700px;
+    padding: 10% 0;
+    display: block;
+}
+.person{
+    display: flex;
+    gap: 50px;
+}
+
+.person img{
+    border-radius: 15px;
+    width: 100px;
+}
+.next{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+.all-icons{
+    background-color: #474747;
+    /* height: 130px; */
+    width: 90px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px;
+}
+.all-icons svg{
+    align-self: center;
+}
+.icon{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
 }
