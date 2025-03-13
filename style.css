@@ -102,7 +102,6 @@ body{
     height: 353px;
     top: 42%;
     left: 20%;
-    /* background: white; */
     border-radius: 53px;
     }
     .shape3{
@@ -111,7 +110,6 @@ body{
     right: -60.07%;
     top: 7.53%;
     bottom: 25.35%;
-    /* background: #FFFCFC; */
     }
     .last-shape{
     position: absolute;
@@ -475,3 +473,6 @@ footer{
     }
  
 } 
+@media screen and (min-width:501px) and ( max-width:500px){
+    
+}
