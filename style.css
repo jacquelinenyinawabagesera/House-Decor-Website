@@ -284,8 +284,6 @@ margin-bottom: 100px;
       background-color: white;
       margin-top: 40px;
 }
-.offer{
-}
  .offer h6{
   font-weight: normal;
   margin-top: 50px;
@@ -475,6 +473,3 @@ footer{
     }
  
 } 
-@media screen and (min-width:501px) and ( max-width:500px){
-
-}
